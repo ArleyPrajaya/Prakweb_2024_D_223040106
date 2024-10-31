@@ -34,9 +34,9 @@ class CetakInfoProduk
   }
 }
 
-$produk3 = new Produk("Penjelajahan Riung Bandung", "Daffa", "Tomang",200000 );
+$produk3 = new Produk("Penjelajahan Bandung", "Arley", "Sprint69",200000 );
 
-$produk4 = new Produk("Mozra", "Uloh", "Amidis", 300000);
+$produk4 = new Produk("Penjelajah Lubang Dunia", "Leeys", "Suep", 300000);
 
 echo "Komik : " . $produk3->getLabel();
 echo "<br>";
